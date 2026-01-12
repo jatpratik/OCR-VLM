@@ -1,0 +1,57 @@
+.idea/
+*.env
+*.xml
+*.venv
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.egg
+.ipynb_checkpoints/
+pip-wheel-metadata/
+env/
+venv/
+.venv/
+.Python
+
+# Logs / DB
+logs/
+*.log
+*.sqlite3
+*.db
+*.db-journal
+uvicorn.log
+
+# Environment files
+.env
+.env.*
+*.env
+
+
+clean_data/
+row_data/
+
+
+
+
+# Audio temp files
+*.tmp.wav
+*.tmp.webm
