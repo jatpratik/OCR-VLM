@@ -154,7 +154,7 @@ async def extract_document(
         # Save to MongoDB
         report_id = None
         try:
-            report_id = await create_report(extracted_data, file.filename)
+            report_id =  await create_report(extracted_data, file.filename)
             print(f"✓ Saved to MongoDB: {report_id}")
         except Exception as e:
             print(f"✗ MongoDB save failed: {e}")
