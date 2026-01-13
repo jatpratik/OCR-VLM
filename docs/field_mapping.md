@@ -14,12 +14,6 @@ Total Missing Fields: 13   ( field Missing in JSON but required by schema )
 5  createdAt
 6  updatedAt
 7  valuationForFinancePurposeHPP
-8  rentalInformation.rentalDemandDetails
-9  rentalInformation.otherLettingDemandDetails
-10 rentalInformation.investorOnlyDemandDetails
-11 valuationForFinancePurpose.financeSuitabilityDetails
-12 valuationForFinancePurpose.insurancePremiumLoadingDetails
-13 services.servicesSeparateDetails
 
 
 
