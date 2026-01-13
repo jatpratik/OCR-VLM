@@ -349,7 +349,7 @@ def pil_image_to_bytes(image: Image.Image) -> bytes:
 def extract_from_image_with_retry(
     client: genai.Client,
     image: Image.Image,
-    model_name: str = "gemini-2.0-flash",
+    model_name: str = "gemini-2.5-flash",
     max_retries: int = 3,
     verbose: bool = True
 ) -> Dict[str, Any]:
@@ -428,7 +428,7 @@ def extract_from_image_with_retry(
 def extract_from_pdf(
     pdf_path: str,
     api_key: Optional[str] = None,
-    model_name: str = "gemini-2.0-flash",
+    model_name: str = "gemini-2.5-flash",
     verbose: bool = True,
     max_retries: int = 3,
     delay_between_pages: float = 2.0
