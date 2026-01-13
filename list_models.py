@@ -39,7 +39,7 @@ try:
             print(f"  {model.name}")
     
     print("-" * 60)
-    print("\nRecommended for this project: gemini-2.0-flash")
+    print("\nRecommended for this project: gemini-2.5-flash")
     
 except Exception as e:
     print(f"Error: {e}")

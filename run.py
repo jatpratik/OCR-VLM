@@ -51,7 +51,7 @@ def main():
     parser.add_argument(
         "--model",
         default=None,
-        help="Model to use (gemini: gemini-2.0-flash, ollama: llava)"
+        help="Model to use (gemini: gemini-2.5-flash, ollama: llava)"
     )
     parser.add_argument(
         "--ollama-url",
@@ -71,7 +71,7 @@ def main():
     
     # Set default model based on backend
     if args.model is None:
-        args.model = "llava" if args.backend == "ollama" else "gemini-2.0-flash"
+        args.model = "llava" if args.backend == "ollama" else "gemini-2.5-flash"
     
     # Check for API key if using Gemini
     if args.backend == "gemini" and not os.getenv("GOOGLE_API_KEY"):

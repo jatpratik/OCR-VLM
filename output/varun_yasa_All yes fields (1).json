@@ -1,10 +1,9 @@
 {
   "_metadata": {
-    "extractedAt": "2026-01-13T14:42:37.720313",
+    "extractedAt": "2026-01-12T19:10:16.333430",
     "sourcePdf": "data/All yes fields (1).pdf",
     "version": "1.0"
   },
-  "applicationType": "BUY TO LET MORTGAGE VALUATION REPORT",
   "applicationNumber": "10295615-4750",
   "applicantName": "varun yasa",
   "dateOfInspection": "2024-11-27",
@@ -138,12 +137,6 @@
     "servicesSeparateDetails": "your text"
   },
   "conditionsOfProperty": {
-    "isStructuralMovement": true,
-    "isStructuralMovementHistoricOrNonProgressive": true,
-    "structuralMovementDetails": "Details",
-    "isStructuralModifications": true,
-    "structuralModificationsDetails": "your text",
-    "communalAreasMaintained": true,
     "propertyProneTo": {
       "flooding": true,
       "subsidence": true,
@@ -151,6 +144,12 @@
       "landslip": true,
       "details": "your text"
     },
+    "isStructuralMovement": true,
+    "isStructuralMovementHistoricOrNonProgressive": true,
+    "structuralMovementDetails": "Details",
+    "isStructuralModifications": true,
+    "structuralModificationsDetails": "your text",
+    "communalAreasMaintained": true,
     "isPlotBoundariesDefinedUnderPointFourHectares": true,
     "isTreesWithinInfluencingDistance": true,
     "treesInfluenceDetails": "your text",
@@ -183,24 +182,19 @@
   },
   "rentalInformation": {
     "isRentalDemandInLocality": true,
-    "rentalDemandDetails": "Test details section",
     "monthlyMarketRentPresentCondition": 0,
     "monthlyMarketRentImprovedCondition": 1350,
     "isOtherLettingDemandFactors": true,
-    "otherLettingDemandDetails": "Test details section",
-    "investorOnlyDemand": true,
-    "investorOnlyDemandDetails": "Test details section"
+    "investorOnlyDemand": true
   },
   "valuationForFinancePurpose": {
     "valuationComparativeOnly": "Valuation to be provided on a comparative basis only",
     "isSuitableForFinance": true,
-    "financeSuitabilityDetails": "Test details section",
     "marketValuePresentCondition": 0,
     "marketValueAfterRepairs": 239120,
     "purchasePriceOrBorrowerEstimate": 239120,
     "buildingInsuranceReinstatementCost": 150000,
-    "isInsurancePremiumLoadingRisk": true,
-    "insurancePremiumLoadingDetails": "Test details section"
+    "isInsurancePremiumLoadingRisk": true
   },
   "valuersDeclaration": {
     "valuerQualifications": {
@@ -215,9 +209,9 @@
     "fax": "01525218632",
     "email": "customercare@connells.co.uk",
     "ricsNumber": 6777456,
-    "valuerAddress": "Valuation Management Centre, Cumbria Hous Leighton Buzzard",
+    "valuerAddress": "Valuation Management Centre, Cumbria Hous\nLeighton Buzzard",
     "valuerPostcode": "LU7 1GN",
     "reportDate": "2024-11-27"
   },
-  "generalRemarks": "Any other information which in your opinion Gatehouse Bank plc should note:\nIt is assumed that appropriate rights of way and management arrangements are in existence for the shared pedestrian access. Legal advisors to confirm.\nConcrete frame with cladding construction. This is considered suitable security for mortgage purposes.\nThere was no loft access.\nThis is a new build property without an EPC. Our valuation is provided on the assumption that the property will have an EPC of E or better upon completion.\nConfirmation should be provided that the cladding system / balconies fully complies with Building (Amendment) Regulations SI 2018/1230 prior to lending. If this is not the case the situation must be referred to the valuer as our valuation may be affected.\nThe property is not lettable in its present condition as it is an incomplete new build. Our 'after works' rental valuation is provided on the basis of the completed property."
+  "generalRemarks": "Any other information which in your opinion Gatehouse Bank plc should note:\nIt is assumed that appropriate rights of way and management arrangements are in existence for the shared pedestrian access. Legal advisors to confirm.\nConcrete frame with cladding construction. This is considered suitable security for mortgage purposes.\nThere was no loft access.\nThis is a new build property without an EPC. Our valuation is provided on the assumption that the property will have an EPC of E or better upon completion.\nConfirmation should be provided that the cladding system/ balconies fully complies with Building (Amendment) Regulations SI 2018/1230 prior to lending. If this is not the case the situation must be referred to the valuer as our valuation may be affected.\nThe property is not lettable in its present condition as it is an incomplete new build. Our 'after works' rental valuation is provided on the basis of the completed property."
 }

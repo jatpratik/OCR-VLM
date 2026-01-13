@@ -30,6 +30,14 @@ CRITICAL RULES:
 4. For DATES: Convert DD/MM/YYYY to YYYY-MM-DD format
 5. For TEXT: Extract exact text as written
 6. If a field is not visible or not applicable, use null
+7. IMPORTANT - DETAIL FIELDS: When a Yes/No checkbox field is checked, ALWAYS look for and extract any accompanying text/details in the text box next to or below it. These are the "*Details" fields in the schema.
+
+EXAMPLES OF DETAIL FIELDS TO EXTRACT:
+- If "Rental demand in locality: Yes [X]" is checked, extract the text next to it into "rentalDemandDetails"
+- If "Other letting factors: Yes [X]" is checked, extract the text into "otherLettingDemandDetails"  
+- If "Investor only demand: Yes [X]" is checked, extract the text into "investorOnlyDemandDetails"
+- If "Suitable for finance: No [X]" is checked, extract reason into "financeSuitabilityDetails"
+- If "Insurance premium loading: Yes [X]" is checked, extract details into "insurancePremiumLoadingDetails"
 
 Extract data into this EXACT JSON structure (only include fields you can see):
 
