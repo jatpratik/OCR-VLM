@@ -1,4 +1,22 @@
 services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ocr_backend
+    ports:
+      - "8003:8003"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017
+      - MONGODB_DB=valuation_reports
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      - ./output:/app/output
+      - ./data:/app/data
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+
   mongodb:
     image: mongo:7
     container_name: ocr_mongodb
